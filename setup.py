@@ -42,8 +42,8 @@ needs_pytest = set(('pytest', 'test', 'ptr')).intersection(sys.argv)
 pytest_runner = ['pytest-runner'] if needs_pytest else []
 
 setup(
-    name='PyJWT',
-    version=version,
+    name='e451-PyJWT',
+    version="1.7.1",
     author='Jose Padilla',
     author_email='hello@jpadilla.com',
     description='JSON Web Token implementation in Python',
